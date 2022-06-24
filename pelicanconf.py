@@ -20,6 +20,8 @@ PLUGINS = [
     'minchin.pelican.plugins.nojekyll'
 ]
 
+#Theme
+THEME = "/home/rodrigo/pelican-themes/built-texts"
 # Blogroll
 LINKS = (('Pelican', 'https://getpelican.com/'),
          ('Python.org', 'https://www.python.org/'),
@@ -27,7 +29,8 @@ LINKS = (('Pelican', 'https://getpelican.com/'),
 
 # Social widget
 SOCIAL = (('Linkedin', 'https://www.linkedin.com/in/rodrigo--lara/'),
-          ('Github', 'https://github.com/rodrigolara-cl'),)
+          ('Github', 'https://github.com/rodrigolara-cl'),
+          ('Gmail', 'rodrigoalberto.lara@gmail.com'))
 
 DEFAULT_PAGINATION = 5
 
