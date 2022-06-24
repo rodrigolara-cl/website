@@ -21,7 +21,7 @@ PLUGINS = [
 ]
 
 #Theme
-THEME = "/home/rodrigo/pelican-themes/built-texts"
+THEME = "notmyidea"
 # Blogroll
 LINKS = (('Pelican', 'https://getpelican.com/'),
          ('Python.org', 'https://www.python.org/'),
@@ -29,10 +29,9 @@ LINKS = (('Pelican', 'https://getpelican.com/'),
 
 # Social widget
 SOCIAL = (('Linkedin', 'https://www.linkedin.com/in/rodrigo--lara/'),
-          ('Github', 'https://github.com/rodrigolara-cl'),
-          ('Gmail', 'rodrigoalberto.lara@gmail.com'))
+          ('Github', 'https://github.com/rodrigolara-cl'),)
 
 DEFAULT_PAGINATION = 5
-
+LOAD_CONTENT_CACHE = False
 # Uncomment following line if you want document-relative URLs when developing
 #RELATIVE_URLS = True
