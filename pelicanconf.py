@@ -19,9 +19,11 @@ AUTHOR_FEED_RSS = None
 PLUGINS = [
     'minchin.pelican.plugins.nojekyll'
 ]
-
+JINJA_ENVIRONMENT = {
+    "extensions": ["jinja2.ext.i18n"],
+}
 #Theme
-THEME = "/home/rodrigo/pelican-themes/built-texts"
+THEME = "/home/rodrigo/pelican-themes/flex"
 # Blogroll
 LINKS = (('Pelican', 'https://getpelican.com/'),
          ('Python.org', 'https://www.python.org/'),
