@@ -17,9 +17,7 @@ AUTHOR_FEED_RSS = None
 
 # Plugins
 PLUGINS = [
-    # ...
-    'minchin.pelican.plugins.nojekyll',
-    # ...
+    'minchin.pelican.plugins.nojekyll'
 ]
 
 # Blogroll
