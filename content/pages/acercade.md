@@ -17,9 +17,9 @@ Como pueden ver, una de mis pasiones es la tecnología aplicada cambiar el mundo
 
 Además de los conocimientos técnicos de los vehículos solares, baterías de litio y sistemas fotovoltaicos, me he dedicado a adquirir conocimientos complementarios en:
 
-- programación científica principalmente en python utilizándolo para análisis de datos y machine learning gracias a las librerías pandas, numpy, matplotlib y scikit-learn, jupyter notebook, etc.
+- Programación científica principalmente en python utilizándolo para análisis de datos y machine learning gracias a las librerías pandas, numpy, matplotlib y scikit-learn, jupyter notebook, etc.
 
-- utilización de bases de datos sql, utilización de api rest y web scrapping para obtener, recopilar y manipular la data.
+- Utilización de bases de datos sql, utilización de api rest y web scrapping para obtener, recopilar y manipular la data.
 
 - He trabajado modificando y realizando páginas web en html directamente o en wordpress y prestashop, además de generar sitios en google sites o sitios estáticos con Pelican.
 
