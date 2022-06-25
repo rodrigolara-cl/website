@@ -1,3 +1,5 @@
+from datetime import datetime
+
 AUTHOR = 'Rodrigo Lara'
 SITENAME = 'Ingeniería y Data Science'
 SITEURL = ''
@@ -31,7 +33,23 @@ LINKS = (('Pelican', 'https://getpelican.com/'),
 SOCIAL = (('Linkedin', 'https://www.linkedin.com/in/rodrigo--lara/'),
           ('Github', 'https://github.com/rodrigolara-cl'),)
 
+DISPLAY_CATEGORIES_ON_MENU = False
+DISPLAY_PAGES_ON_MENU = False
+
+MENUITEMS = (
+    ('Inicio', '/'),
+    #('Archivos', '/archivos.html'),
+    #('Tags', '/tags.html'),
+    ('Blog', '/category/blog.html'),
+    ('Acerca de', '/pages/acerca-de.html'),
+)
 DEFAULT_PAGINATION = 5
 LOAD_CONTENT_CACHE = False
 # Uncomment following line if you want document-relative URLs when developing
 #RELATIVE_URLS = True
+now = datetime.now()
+current_datetime = now.strftime("%Y-%m-%d %H:%M")
+DEFAULT_METADATA = {
+    'status': 'draft',
+    #'date': current_datetime
+}

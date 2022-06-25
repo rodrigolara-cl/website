@@ -6,6 +6,7 @@ Slug: acerca-de
 Author: Rodrigo Lara
 Summary: Biografía
 Lang: es
+Status: published
 
 # Rodrigo Lara
 
