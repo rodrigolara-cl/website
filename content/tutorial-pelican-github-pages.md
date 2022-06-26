@@ -1,4 +1,4 @@
-Title: Tutorial Pelican con Github Places
+Title: Tutorial para realizar página web con Pelican en Github Pages
 Date: 2022-06-25 22:46
 Tags: pelican, github, github-pages
 Category: Blog
@@ -8,8 +8,6 @@ Summary: En este tutorial mostraré el workflow actualizado al 2022 para realiza
 Lang: es
 Translation: false
 Status: published
-
-# Tutorial para realizar página web con Pelican en Github pages
 
 Hace años por allá el 2013 probé sitios web estáticos en github pages e intenté usar sin mucho éxito Jekyll y Pelican. En general la curiosidad no llega más lejos que la necesidad. Sólo me ha tocado trabajar con sitios web en wordpress y ahora último prestashop debido a que son las tecnologías usadas en las páginas web de mis últimos dos trabajos, sin embargo no son lo que necesito actualmente para crear mi página web personal. Utilicé Google Sites con éxito para un proyecto de baterías junto con un amigo, pero la selección fue restringida a que debía ser fácil de escribir contenido y configurar. Bueno ninguna de las opciones cumple con mis requisitos personales los cuales son:
 
@@ -211,3 +209,7 @@ Los mayores problemas que tuve al configurar el sitio con Github Pages fueron de
 
 
 Luego de tener el procedimiento probado y funcionando los siguientes pasos son elegir y configurar un tema, crear el contenido, utilizar las funciones de Pelican y de los temas, y utilizar plugins existentes o crear nuevos en caso de necesitar funciones especiales para crear el sitio web estático perfecto para ti.
+
+<div class="commentbox"></div>
+<script src="https://unpkg.com/commentbox.io/dist/commentBox.min.js"></script>
+<script>commentBox('5676459674828800-proj')</script>
