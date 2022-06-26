@@ -24,7 +24,7 @@ En este tutorial mostraré el procedimiento actualizado al 2022 para realizar p�
 
 ## Creación de repositorios en GitHub
 
-Github Pages permite una sola página web personal con el formato [https://nombre-usuario.github.io](https://nombre-usuario.github.io) pero no restringe la cantidad de las páginas de proyecto que se accederían [https://nombre-usuario.github.io/nombre-proyecto](https://nombre-usuario.github.io/nombre-proyecto).
+Github Pages permite una sola página web personal con el formato `https://nombre-usuario.github.io` pero no restringe la cantidad de las páginas de proyecto que se accederían `https://nombre-usuario.github.io/nombre-proyecto`.
 
 La mayoría de los tutoriales explican como realizarlo en las páginas de proyecto, y la documentación de Pelican explica sólo la parte final de subir el sitio para ambos casos, por lo que existía un vacío y algunas incompatibilidades con el estado actual de Github y los tutoriales.
 
@@ -38,10 +38,15 @@ Recomiendo no crear un readme ni gitignore ni licencia ya que no los necesitamos
 
 A continuación creamos el repositorio para el seguimiento del código del sitio web. En este puedes colocar cualquier nombre del proyecto y colocar un readme también.
 Una vez realizado este repositorio el último paso es crear una llave de acceso personal en GitHub.
+
 - Ingresar a configuracion/settings del usuario (no del proyecto)
+
 - Al final de la lista de opciones se encuentra developer settings
+
 - Ingresar a personal access token y generar un nuevo token, luego seleccionar la duración del token(si eliges duración tendrás que crear un nuevo token periódicamente) y finalmente elegir el scope, en particular yo seleccioné todos los permisos para evitar problemas de acceso pero probablemente no sean necesario todos.
+
 - El token aparecerá una sola vez por lo que debes copiarlo y guardarlo.
+
 - Este token lo utilizaremos para autenticarnos al realizar el push del repositorio local hacia github y para subir la página web.
 
 ## Configuración entorno virtual de Python e instalación de Pelican, Git y dependencias
@@ -169,7 +174,7 @@ make html
 make serve
 ~~~
 
-Podemos visualizar la página en [http://localhost:8000](http://localhost:8000) en el navegador.
+Podemos visualizar la página en `http://localhost:8000´ en el navegador.
 
 Cuando esté listo para ser publicado utilizaremos el siguiente comando.
 
