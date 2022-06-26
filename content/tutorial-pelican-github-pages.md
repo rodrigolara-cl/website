@@ -174,7 +174,7 @@ make html
 make serve
 ~~~
 
-Podemos visualizar la página en `http://localhost:8000´ en el navegador.
+Podemos visualizar la página en ´http://localhost:8000´ en el navegador.
 
 Cuando esté listo para ser publicado utilizaremos el siguiente comando.
 
@@ -199,7 +199,7 @@ ghp-import output -b gh-pages
 git push https://token-de-acceso@github.com/nombre-usuario/nombre-usuario.github.io.git gh-pages:main
 ~~~
 
-Luego hay que esperar unos minutos para que la página esté activa en la dirección [nombre-usuario.github.io](nombre-usuario.github.io).
+Luego hay que esperar unos minutos para que la página esté activa en la dirección ´nombre-usuario.github.io´.
 
 
 
