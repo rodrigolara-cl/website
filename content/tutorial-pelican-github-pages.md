@@ -174,7 +174,7 @@ make html
 make serve
 ~~~
 
-Podemos visualizar la página en ´http://localhost:8000´ en el navegador.
+Podemos visualizar la página en `http://localhost:8000` en el navegador.
 
 Cuando esté listo para ser publicado utilizaremos el siguiente comando.
 
