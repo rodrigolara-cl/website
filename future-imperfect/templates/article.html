@@ -1,0 +1,33 @@
+{% extends "base.html" %}
+{% block content %}
+{% include 'includes/header.html' %}
+<!-- Post -->
+<article class="post">
+  <header>
+    <div class="title">
+      <h2><a href="{{ SITEURL }}/{{ article.url }}">{{ article.title }}</a></h2>
+
+    </div>
+    <div class="meta">
+      <time class="published" datetime="{{ article.date | strftime('%Y-%m-%d') }}">{{ article.date | strftime('%b %-d, %Y') }}</time>
+      <a href="{{ SITEURL }}/pages/acerca-de.html" class="author"><span class="name">{{ article.author }}</span><img src="images/{{ PROFILEPIC }}" alt="" /></a>
+    </div>
+  </header>
+  <a href="{{ article.url }}" class="image featured"><img src="images/{{ article.image }}" alt="" /></a>
+  {{ article.content }}
+
+  <footer>
+<!--    <ul class="actions">
+      <li><a href="{{ article.url }}" class="button large">Continue Reading</a></li>
+    </ul> -->
+    <ul class="stats">
+      {% for tag in article.tags %}
+      <li><a href="#">{{ tag.name }}</a></li>
+      {% endfor %}
+    </ul>
+  </footer>
+    <div class="commentbox"></div>
+    <script src="https://unpkg.com/commentbox.io/dist/commentBox.min.js"></script>
+    <script>commentBox('{{ COMMENTBOX }}')</script>
+</article>
+{% endblock %}

@@ -1,0 +1,12 @@
+{% extends "base.html" %}
+{% block content %}
+{% include 'includes/header.html' %}
+<article class="post">
+<header>
+    <div class="title">
+      <h2><a href="{{ SITEURL }}/{{ page.url }}">{{ page.title }}</a></h2>
+    </div>
+</header>
+{{ page.content }}
+</article>
+{% endblock %}

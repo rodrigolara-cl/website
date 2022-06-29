@@ -4,7 +4,7 @@ Tags: pelican, github, github-pages
 Category: Blog
 Slug: tutorial-pelican-github-pages
 Author: Rodrigo Lara
-Summary: En este tutorial mostraré el workflow actualizado al 2022 para realizar páginas web en pelican y sincronizarlas con git hacia github.
+Image: post21.jpg
 Lang: es
 Translation: false
 Status: published
@@ -214,7 +214,3 @@ Los mayores problemas que tuve al configurar el sitio con Github Pages fueron de
 
 
 Luego de tener el procedimiento probado y funcionando los siguientes pasos son elegir y configurar un tema, crear el contenido, utilizar las funciones de Pelican y de los temas, y utilizar plugins existentes o crear nuevos en caso de necesitar funciones especiales para crear el sitio web estático perfecto para ti.
-
-<div class="commentbox"></div>
-<script src="https://unpkg.com/commentbox.io/dist/commentBox.min.js"></script>
-<script>commentBox('5676459674828800-proj')</script>

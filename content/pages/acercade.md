@@ -1,6 +1,6 @@
 Title: Acerca de
 Date: 2022-06-23 23:40
-Category: Bio
+Category: Acerca de
 Tags: pelican, publishing
 Slug: acerca-de
 Author: Rodrigo Lara
